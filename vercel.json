@@ -2,5 +2,5 @@
     "version":2,
     "name":"cryptoverse",
     "builds":[{"use":"@vercel/node"}],
-    "routes":[{"dest":"/react-scripts start"}]
+    "routes":[{"scr":"/(.*)","dest":"/react-scripts start"}]
 }
